@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "john",
+      "role": "voter",
+      "username": "john",
+      "password": "1234",
+      "age": "15"
+    },
+    {
+      "id": 2,
+      "name": "johny",
+      "role": "voter",
+      "username": "johny",
+      "password": "12345",
+      "age": "15"
+    },
+    {
+      "id": 3,
+      "name": "john",
+      "role": "voter",
+      "username": "john",
+      "password": "123456",
+      "age": "15"
+    },
+    {
+      "id": 4,
+      "name": "john",
+      "role": "voter",
+      "username": "john",
+      "password": "1234567",
+      "age": "15"
+    },
+    {
+      "id": 5,
+      "name": "john",
+      "role": "voter",
+      "username": "john",
+      "password": "1234567",
+      "age": "15"
+    }
+  ]
+}
