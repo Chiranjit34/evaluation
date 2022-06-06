@@ -80,7 +80,10 @@ app.post("./db.json", (req, res) => {
 });
 
 app.get("/db", (req, res) => {
-  fs.readFile("./db.json", "utf-8", (err, data));
+    fs.readFile("./db.json", "utf-8", (err, data) => {
+        res.send(data)
+    });
+    
 });
 
 const PORT = process.env.PORT || 8080;
