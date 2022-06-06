@@ -68,7 +68,7 @@ app.get("votes/party/:party", (req, res) => {
   });
 });
 
-app.get("./db.json", (req, res) => {
+app.post("./db.json", (req, res) => {
   fs.readFile("./db.json", { encoding: "utf-8" }, (err, data) => {
     const parsed = JSON.parse(data);
     parsed.users = [...parsed.users, req.body];
@@ -79,7 +79,7 @@ app.get("./db.json", (req, res) => {
   });
 });
 
-app.post("/db", (req, res) => {
+app.get("/db", (req, res) => {
   fs.readFile("./db.json", "utf-8", (err, data));
 });
 
